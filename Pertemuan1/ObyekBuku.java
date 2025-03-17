@@ -4,8 +4,8 @@ public class ObyekBuku{
 
 		Buku buku1 = new Buku();
 
-		buku1.setJudul("PBO");
-		buku1.display();
+		buku1.setBuku("PBO", 60000, 100);
+		buku1.tampil();
 
 	}
 }
