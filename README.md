@@ -11,8 +11,8 @@ Di sini saya ingin membagikan beberapa script **Java** untuk kita diskusikan dan
 Jangan ragu untuk berkomentar atau memberikan masukan! 🔥  
 
 
-📖 **Referensi Modul Praktikum & Teori:**  
-🔗 [Teori](https://wagito.my.id/public/pbo/)
+📖 **Referensi Modul :**  
+🔗 [Teori](https://wagito.my.id/public/pbo/)  
 🔗 [Praktikum](https://wagito.my.id/public/pbo-prak/)
 
 
