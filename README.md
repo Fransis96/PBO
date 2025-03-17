@@ -10,8 +10,11 @@
 Di sini saya ingin membagikan beberapa script **Java** untuk kita diskusikan dan pelajari bersama.  
 Jangan ragu untuk berkomentar atau memberikan masukan! 🔥  
 
+
 📖 **Referensi Modul Praktikum & Teori:**  
-🔗 [Modul Kuliah oleh Dosen](https://wagito.my.id/e-kuliah/)  
+🔗 [Teori](https://wagito.my.id/public/pbo/)
+🔗 [Praktikum](https://wagito.my.id/public/pbo-prak/)
+
 
 💡 **Bagaimana cara berkontribusi?**  
 1. Fork repository ini 🍴  
