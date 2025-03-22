@@ -1,27 +1,20 @@
-class Lingkaran{
+class Lingkaran {
 
-	// variabel global (atribut class)
-	private final double phi;
-	private double r;
+    protected double phi = 3.14;
+    protected double r;
 
-	// Konstruktor default
-	public Lingkaran(){
-		phi = 3.14;
-		r = 0.0;
+    public Lingkaran(double r) {
+        this.r = r;
+    }
+
+    protected double luas() {
+        return phi * r * r;
+    }
+
+    protected double keliling(){
+		return 2 * phi * r;
 	}
-
-	// Metode setter (Mutator)
-	protected void setJari(double r){ this.r = r; }
-	// Metode getter (acessor)
-	protected double getJari(){ return r; }
-	protected double getPhi(){ return phi; }
-
-	// Metode luas
-	protected double luas(){
-		return phi * getJari() * getJari();
-	}
-	// Metode keliling
-	protected double keliling(){
-		return 2 * phi * getJari();
+	protected double diameter(){
+		return 2 * r;
 	}
 }
