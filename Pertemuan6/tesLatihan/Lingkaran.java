@@ -12,9 +12,9 @@ class Lingkaran {
     }
 
     protected double keliling(){
-		return 2 * phi * r;
-	}
-	protected double diameter(){
-		return 2 * r;
-	}
+	return 2 * phi * r;
+    }
+    protected double diameter(){
+	return 2 * r;
+    }
 }
