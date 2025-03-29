@@ -7,13 +7,8 @@ public class Main2{
 
 		for(int i = 0; i < 5; i++){
 			a[i] = new Lingkaran();
+			a[i].setJari(i*10);
 		}
-
-		a[0].setJari(00.00);
-		a[1].setJari(10.00);
-		a[2].setJari(20.00);
-		a[3].setJari(30.00);
-		a[4].setJari(40.00);
 
 		for(int i = 0; i < 5; i++){
 			a[i].tampil();
