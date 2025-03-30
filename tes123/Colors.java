@@ -1,4 +1,4 @@
-class Colors {
+public class Colors {
 
     /*
     ANSI escape codes :
