@@ -2,6 +2,7 @@ public class Lemon extends Buah{
 
 	public Lemon(){
 		setUsia("Matang");
+		setWarna("Kuning pudar");
 		setRasa("Asam");
 	}
 	@Override

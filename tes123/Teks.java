@@ -30,7 +30,7 @@ class Teks extends Colors{
 		}
 	}
 	public String getTxt(){
-			return txt;
+		return txt;
 	}
 	public String getWarna(){
 		return warna;
