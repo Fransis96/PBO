@@ -18,21 +18,21 @@ public class Titik{
 
 	// Contoh Latihan 1
 	// 3
-	public Titik(int t){
-		this.x = (2*t) / x;
-		this.y = (2+t) - y;
+	public Titik(int x){
+		this.x = 1+x;
+		this.y = 2+x;
 		System.out.println("Konstruktor titik ke-3!");
 	}
 	// 4
-	public Titik(Titik t1){
-		this.x = t1.x + 2;
-		this.y = t1.y + 2;
+	public Titik(double x){
+		this.x = (int) Math.round(x + 1.5);
+		this.y = (int) Math.round(x + 2.5);
 		System.out.println("Konstruktor titik ke-4!");
 	}
 	// 5
-	public Titik(Titik t1, Titik t2){
-		this.x = t1.x + t2.x;
-		this.y = t1.y + t2.y;
+	public Titik(Titik t1){
+		this.x = t1.x;
+		this.y = t1.y;
 		System.out.println("Konstruktor titik ke-5!");
 	}
 }
