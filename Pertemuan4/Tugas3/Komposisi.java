@@ -16,8 +16,10 @@ public class Komposisi{
 
 		// Melengkapi Equipment
 		player1.equip(kaos,bazoka);
+		player2.equip(kapak);
 
 		// Menampilkan player
 		player1.display();
+		player2.display();
 	}
 }
