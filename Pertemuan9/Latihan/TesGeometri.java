@@ -1,3 +1,4 @@
+// Latihan 2
 class Persegi extends Geometri{
 
 	private double s;
@@ -27,7 +28,10 @@ class Lingkaran extends Geometri{
 		return "Lingkaran";
 	}
 }
+// --> Akhir Latihan 2
 
+
+// Latihan 3
 public class TesGeometri{
 
 	public static void main(String[] args){
@@ -40,3 +44,4 @@ public class TesGeometri{
 		g.display();
 	}
 }
+// --> Akhir latihan 3
