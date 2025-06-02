@@ -1,42 +1,29 @@
-class BujurSangkar{
-
-	private double sisi;
-
-	BujurSangkar(double sisi){
-		this.sisi = sisi;
-	}
-	double luas(){
-		return sisi * sisi;
-	}
-	double keliling(){
-		return 4*sisi;
-	}
-
-	void show(){
-		System.out.println("Luas = "+luas());
-		System.out.println("Keliling = "+keliling());
-	}
-}
-
 class SetengahBujurSangkar extends BujurSangkar{
 
-	private double s;
-
-	SetengahBujurSangkar(double s){
-		super(s);
+	SetengahBujurSangkar(double sisi){
+		super(sisi);
 	}
 	double luas(){
-		return 0.5 * s * s;
+		return 0.5 * sisi * sisi;
 	}
 	double keliling(){
-		return 2 * (s + s/2);
+		return 2 * (sisi + sisi/2);
+	}
+	void show(){
+		System.out.println("Setengah Luas = "+luas());
+		System.out.println("Setengah Keliling = "+keliling());
 	}
 }
 
 public class RuntimePolymorphism{
 
 	public static void main(String[] args){
-		SetengahBujurSangkar bs = new SetengahBujurSangkar(5);
-		BujurSangkar bj = new BujurSangkar(5.5);
+		BujurSangkar bs;
+
+		bs = new BujurSangkar(5.5);
+		bs.show();
+
+		bs = new SetengahBujurSangkar(3.5);
+		bs.show();
 	}
 }
