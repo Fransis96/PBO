@@ -1,5 +1,5 @@
 // Latihan 1
-abstract class Geometri{
+public abstract class Geometri{
 
 	private final double PHI = Math.PI;
 
